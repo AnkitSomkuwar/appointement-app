@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.appointment-ui-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  border-radius: 10px;
+}
+.appointment-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-around;
+  margin-right: 100px;
+}
+.main-heading {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #171f46;
+  font-weight: bold;
+}
+.input-label {
+  font-family: Roboto;
+  font-size: 10px;
+  color: #b5b7c4;
+  font-weight: 600;
+}
+.title-input {
+  padding: 4px;
+  width: 200px;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.title-label {
+  font-family: Roboto;
+  font-size: 10px;
+  color: #b5b7c4;
+  font-weight: 600;
+}
+.input-date {
+  padding: 4px;
+  width: 200px;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+.add-btn {
+  background-color: #9897f0;
+  color: #ffffff;
+  width: 60px;
+  height: 25px;
+  font-size: 10px;
+  border-width: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-area {
+  margin-top: 20px;
+}
+.appointment-icon {
+  width: 300px;
+}
