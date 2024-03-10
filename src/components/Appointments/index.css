@@ -4,14 +4,13 @@
   min-height: 100vh;
   background-size: cover;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .appointment-ui-container {
   background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
+
   padding: 25px;
   border-radius: 10px;
 }
@@ -70,4 +69,44 @@
 }
 .appointment-icon {
   width: 300px;
+}
+.horizonal-line {
+  width: 100%;
+  border: 1px solid #dee0e3;
+}
+.header-filter-container {
+  display: flex;
+  justify-content: space-between;
+}
+.starred-btn {
+  outline: none;
+  border-radius: 20px;
+  width: 80px;
+  font-weight: 600;
+  height: 25px;
+  padding: 0px 10px 0px 10px;
+  margin-top: 15px;
+}
+.filter-active-bg {
+  background-color: #9897f0;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+}
+.filter-inactive-bg {
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  background-color: transparent;
+}
+.appointment-heading {
+  font-family: Roboto;
+  color: #171f46;
+  font-size: 20px;
+}
+.appointments-list {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 24px;
 }
